@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: "Times New Roman", Verdana, Tahoma, serif;
+  text-transform: uppercase;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+a:link {
+  color: aquamarine;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  color: green;
+}
+
+.list {
+  list-style-type: square;
+  line-height:2em;
+}
+
+.list.menu {
+  list-style-type: none;
+  font-weight: 800;
+}
+
+.list .step {
+  list-style-type: decimal;
+  padding-right: 870px;
+  line-height: 1.5em;
+  margin-bottom: 1em ;
+}
